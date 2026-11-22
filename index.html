@@ -23,7 +23,7 @@
           "alternateName": "蔡佳妤",
           "url": "https://corgicanfly.com",
           "jobTitle": "Writer",
-          "description": "Writer. Founder of MÖTHEA. Owner-trainer of the service dog Lolly. The person behind Corgi Can Fly.",
+          "description": "Writer. Founder of MÖTHEA. The person behind Corgi Can Fly.",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Minneapolis",
@@ -341,6 +341,43 @@
         .record-date { grid-column: 1 / -1; order: -1; }
       }
 
+      /* ---------- Selected record, Taiwan ---------- */
+      .tw-list { border-top: 1px solid var(--line-strong); }
+      .tw-row {
+        display: grid;
+        grid-template-columns: 64px 176px 108px 1fr;
+        gap: 6px 18px;
+        align-items: baseline;
+        padding: 16px 2px;
+        border-bottom: 1px solid var(--line);
+      }
+      .tw-year {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        color: var(--ink-soft);
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .tw-org { font-size: 16.5px; font-weight: 600; }
+      .tw-form {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+        white-space: nowrap;
+      }
+      .tw-fact { font-size: 15.5px; color: var(--ink-soft); }
+      .tw-fact .tw-src { white-space: nowrap; }
+      @media (max-width: 560px) {
+        .tw-row { grid-template-columns: 1fr auto; }
+        .tw-year { grid-column: 1 / -1; order: -1; }
+        .tw-org { grid-column: 1; }
+        .tw-form { grid-column: 2; }
+        .tw-fact { grid-column: 1 / -1; }
+      }
+
       /* ---------- Recognised across ---------- */
       ul.links { list-style: none; margin: 0; padding: 0; }
       ul.links li { border-bottom: 1px solid var(--line); }
@@ -409,7 +446,7 @@
       <header class="identity">
         <h1>Jade Chia-Yu Tsai<span class="zh">蔡佳妤</span></h1>
         <p class="place">Minneapolis, Minnesota</p>
-        <p class="roles">Writer. Founder of M&Ouml;THEA. Owner-trainer of the service dog Lolly. The person behind Corgi Can Fly.</p>
+        <p class="roles">Writer. Founder of M&Ouml;THEA. The person behind Corgi Can Fly.</p>
         <hr class="identity-rule" />
       </header>
 
@@ -488,9 +525,60 @@
         <p><span lang="zh-Hant">《真實色彩—優席夫的藝術光旅》</span> — <em>True Colors of Yosifu</em>, the biography of the Amis artist Yosifu.</p>
       </section>
 
-      <!-- 7 · Recognised across -->
+      <!-- 7 · Selected record, Taiwan -->
+      <section aria-labelledby="h-taiwan-record">
+        <div class="section-label"><span class="no">06</span><h2 id="h-taiwan-record">Selected Record, Taiwan</h2></div>
+        <hr class="rule" />
+        <p>A selection of her record in Taiwan. Each entry links to its source.</p>
+        <div class="tw-list">
+          <div class="tw-row">
+            <span class="tw-year">2023</span>
+            <span class="tw-org">Tatler Taiwan</span>
+            <span class="tw-form">Featured</span>
+            <span class="tw-fact">Featured in Female Pioneer, Tatler Taiwan, March 2023. <span class="tw-src">Source: <a href="https://www.taaze.tw/products/21100046298.html" target="_blank" rel="noopener">TAAZE catalogue</a></span></span>
+          </div>
+          <div class="tw-row">
+            <span class="tw-year">2023</span>
+            <span class="tw-org">Ministry of Culture, Taiwan</span>
+            <span class="tw-form">Recommended</span>
+            <span class="tw-fact"><span lang="zh-Hant">《真實色彩—優席夫的藝術光旅》</span>, reported and written by Tsai, is on the recommended list of the 47th Golden Tripod Awards, in the book editing category. <span class="tw-src">Source: <a href="https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDcwL3JlbGZpbGUvMTA1NTAvMTg3MjAxLzE0ZDY4MzJjLTFjNDgtNDM1Ni1hYzQxLTU2NDcyNzYwZWQ3OC5wZGY%3D&amp;n=6ZmE5Lu2LeesrDQ35bGG6YeR6byO542O5b6X542O5ZGN5ZauLnBkZg%3D%3D" target="_blank" rel="noopener">Ministry of Culture (PDF)</a></span></span>
+          </div>
+          <div class="tw-row">
+            <span class="tw-year">2023</span>
+            <span class="tw-org">Hilton Taipei Sinban</span>
+            <span class="tw-form">Curator</span>
+            <span class="tw-fact">Spring River Flower Moon Night, a wedding banquet staged as sound and theatre. Taiwan media reported it as the first of its kind. <span class="tw-src">Source: <a href="https://leho.com.tw/archives/56249" target="_blank" rel="noopener">Leho</a></span></span>
+          </div>
+          <div class="tw-row">
+            <span class="tw-year">2022</span>
+            <span class="tw-org">Sands Book, Taipei</span>
+            <span class="tw-form">Author</span>
+            <span class="tw-fact"><span lang="zh-Hant">《真實色彩—優席夫的藝術光旅》</span>, the biography of the Amis artist Yosifu, reported and written by Tsai. <span class="tw-src">Source: <a href="https://www.taaze.tw/products/11316177448.html" target="_blank" rel="noopener">TAAZE</a></span></span>
+          </div>
+          <div class="tw-row">
+            <span class="tw-year">2020</span>
+            <span class="tw-org">Times Publishing, Taipei</span>
+            <span class="tw-form">Author</span>
+            <span class="tw-fact"><span lang="zh-Hant">《那些做自己的女人，和她們的餐桌》</span>, her first book, published in Taipei. <span class="tw-src">Source: <a href="https://www.kingstone.com.tw/basic/2015440561163/?lid=book_publish_press_series_10005" target="_blank" rel="noopener">Kingstone</a></span></span>
+          </div>
+          <div class="tw-row">
+            <span class="tw-year">2017</span>
+            <span class="tw-org">Pink Lady Food Photographer of the Year, London</span>
+            <span class="tw-form">Shortlisted</span>
+            <span class="tw-fact">Her photographs of twelve European women and their tables were shortlisted in London. <span class="tw-src">Source: <a href="https://www.eslite.com/product/10072302132682750825003" target="_blank" rel="noopener">Eslite</a></span></span>
+          </div>
+          <div class="tw-row">
+            <span class="tw-year"></span>
+            <span class="tw-org">VOGUE Taiwan, MUZIK</span>
+            <span class="tw-form">Columnist</span>
+            <span class="tw-fact">Her essays have appeared in VOGUE Taiwan. For MUZIK, a classical music magazine, she wrote <span lang="zh-Hant">《餐桌上的指揮家》</span>, a column on the legendary meals of composers. <span class="tw-src">Source: <a href="https://www.kingstone.com.tw/basic/2015440561163/?lid=book_publish_press_series_10005" target="_blank" rel="noopener">Kingstone author bio</a></span></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8 · Recognised across -->
       <section aria-labelledby="h-recognised">
-        <div class="section-label"><span class="no">06</span><h2 id="h-recognised">Recognised across</h2></div>
+        <div class="section-label"><span class="no">07</span><h2 id="h-recognised">Recognised across</h2></div>
         <hr class="rule" />
         <p>The same person, the same record, confirmed at each of these addresses:</p>
         <ul class="links">
@@ -527,9 +615,9 @@
         </ul>
       </section>
 
-      <!-- 8 · Work with us -->
+      <!-- 9 · Work with us -->
       <section aria-labelledby="h-work">
-        <div class="section-label"><span class="no">07</span><h2 id="h-work">Work with us</h2></div>
+        <div class="section-label"><span class="no">08</span><h2 id="h-work">Work with us</h2></div>
         <hr class="rule" />
         <div class="work-box">
           <p>Corgi Can Fly takes a small number of engagements each year, in three forms.</p>
